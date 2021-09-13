@@ -7,7 +7,7 @@ import com.squareup.moshi.JsonClass
 @JsonClass(generateAdapter = true)
 data class DoDate(
     @Json(name = "date")
-    val date: Date? = null,
+    val date: NotionDate? = null,
     @Json(name = "id")
     val id: String? = null,
     @Json(name = "type")
